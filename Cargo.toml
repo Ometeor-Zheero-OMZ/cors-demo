@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "backend"
+]
+
+[workspace.dependencies]
+actix-web = "4"
+actix-cors = "0.6"
+env_logger = "0.9"
+log = "0.4"
+serde = { version = "1.0", features = ["derive"] }
